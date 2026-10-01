@@ -34,7 +34,7 @@ f_klimit: .float 2.0
 
 .text
 .globl main
-
+    j main                            # jumb to the main function
 
 # =====================================================================
 # float my_abs(float x)          x:$f12  ->  $f0
